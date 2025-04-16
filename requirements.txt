@@ -1,0 +1,13 @@
+langchain>=0.1.0
+langchain-pinecone>=0.1.0
+langchain-ollama>=0.0.1
+langchain-core>=0.1.0
+langchain_experimental>=0.3.0
+pinecone-client>=2.2.4
+pandas>=2.0.0
+streamlit>=1.30.0
+python-dotenv>=1.0.0
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+python-pptx>=0.6.21
+openpyxl>=3.1.2
