@@ -1,0 +1,28 @@
+# GEMINI_API_KEY most of time not needed, but if asked to set, set it to
+GEMINI_API_KEY = ""
+
+# you have to create the service account and download the json file
+# and set the path to the json file here
+GOOGLE_APPLICATION_CREDENTIALS=""
+
+
+
+#Pinecone API key and environment, you can get it from pinecone console
+PINECONE_API_KEY = ""
+
+# you have to create the index first, and set the name here
+INDEX_NAME="gemini-index-qna-based-on-file-upload"
+
+
+# groq API key and environment, you can get it from groq console
+GROQ_API_KEY= ""
+
+# set langsmith API key and project name here
+# you can get the API key from langsmith console
+# this is optional, but if you want to use langsmith, you can set it here
+# it used for tracing the requests and responses
+# and also for logging the requests and responses to langsmith
+
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=""
+LANGSMITH_PROJECT="Testing With Gemini Embeding for QNA Based On File Uploaded"
